@@ -1,0 +1,257 @@
+// Dashboard 
+@import src/styles/vars
+
+
+.csgo-bg
+    background: red
+
+.adibou-bg
+    background: blue
+
+.game-row
+    padding-right: 30%
+
+.game-isSelected
+    background-color: rgba(19,19,25, .7)
+    border-radius: 16px 0 0 16px
+    // -webkit-box-shadow: 16px 0px px -5px rgba(0,0,0,0.75)
+    // -moz-box-shadow: 19px 0px 0px -5px rgba(0,0,0,0.75)
+    // box-shadow: 19px 0px 0px 0px rgba(0,0,0,0.75)    
+
+.dashboard-game-list
+    padding-right: 0
+
+.show
+    display: block
+
+.dashboard
+    min-width: 330px
+
+.dashboard-images
+    margin: 10px
+    border-radius: 10px
+    cursor: pointer
+    -webkit-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    &:hover
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75)
+        -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75)
+        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75)
+
+.add-game-dashboard
+    width: 100px
+    height: 100px
+    margin: auto
+    background-color: rgba(0, 0, 0, .7)
+    border: 2px solid $orange
+    display: flex
+    justify-content: center
+    align-items: center
+    color: $orange
+    margin-top: 30px
+    .add-span
+        font-size: 3em
+
+.add-game-font
+    display: flex
+    justify-content: center
+
+.dashboard-main
+    background-color: rgba(19,19,25, .7)
+    border-radius: 0 16px 16px 0
+    //-webkit-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    //-moz-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    //box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    .dashboard-main-btn
+        width: 45%
+        min-width: 190px 
+        min-height: 30px
+        margin: 20px auto 30px auto !important
+        border: none
+        background-color: $orange
+        border-radius: 50px
+        color: #fff
+        -webkit-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+        -moz-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+        box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+        &:hover
+            background-color: $orange-hover
+            color: #fff
+    .dashboard-main-header
+        color: $orange
+        font-size: 1.3em
+        margin-bottom: 20px
+    .dahsboard-main-user
+        color: #fff
+        border-radius: 8px
+        padding: 5px
+        background-color: #000
+        background-color: rgba(31,32,54, 0.3)
+        .media
+            align-items: center
+        .dahsboard-main-user-img
+            border: solid green 3px
+            border-radius: 8px
+            margin-right: 15px
+        .dahsboard-main-user-body
+            // justify-content: space-between
+            // display: flex
+            // align-items: center
+            .dashboard-main-visible-header
+                display: flex
+                align-items: center
+                justify-content: space-between
+                &:hover
+                    color: $orange
+                    cursor: pointer
+            .dahsboard-main-user-username
+                font-size: 1.2em
+                font-weight: bold
+            // .dashboard-mais-user-rank-logo
+            //     display: inline
+            .dahsboard-main-user-description
+                font-style: italic
+                color: #cecece
+                .dahsboard-main-user-frequency
+                    font-style: normal
+                    font-weight: bolder
+            .dahsboard-main-user-rankname
+                font-weight: bold
+                color: #ffffff
+
+.col-card
+    padding-top: 5px
+    padding-bottom: 5px     
+
+
+@media (max-width: 1300px)
+  .dashboard-images 
+    height: 76px
+    width: 76px
+  .add-game-dashboard
+    height: 32px
+    width: 32px
+  .dashboard
+   
+  
+@media (max-width: 840px)
+    .game-row
+        padding-right: 10%
+    .dashboard-main
+        padding-left: 6px
+        padding-right: 6px 
+        .dahsboard-main-user
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+            .media
+                .dahsboard-main-user-img
+                    height: 35px
+                    width: 35px
+                .dahsboard-main-user-body
+                    svg
+                        font-size: 1.5em
+                    .dahsboard-main-user-username
+                        font-size: 1em
+
+
+
+
+
+.option-form
+    width: 300px
+    background: none
+    border: 1px solid $orange
+    color: $orange
+    -webkit-appearance: none
+    -moz-appearance: none
+   
+.option-form:focus
+    background: none
+    border: 1px solid $orange
+    color: $orange
+    -webkit-appearance: none
+    -moz-appearance: none
+    
+    
+
+.btn-form
+    background: $orange
+    color: #fff
+    width: 300px
+    
+
+.btn-form:hover
+    background: $orange
+    color: #fff
+    width: 300px
+
+.media-game
+    
+    
+.delete-btn
+    margin: 0
+    position: relative
+    left: 90px
+    top: 30px
+    color: $orange
+    -webkit-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    -moz-box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    box-shadow: 0px 0px 19px -5px rgba(0,0,0,0.75)
+    z-index: 10
+
+.delete-btn:hover
+    position: relative
+    left: 90px
+    top: 30px
+    color: $orange-hover
+
+
+
+//ADD GAME
+
+.btn-select
+    width: 100%
+    padding: 15px 20px
+    background-color: #1F2036
+    border: none
+    border-radius: 50px
+    color: #fff
+    
+.form-add-game
+    margin-top: 20px
+
+
+
+@media (max-width: 430px)
+    .dashboard-main
+        padding-left: 0px
+        padding-right: 0px
+        border-radius: 0 16px 16px 16px
+        .container-fluid
+            padding-left: 3px
+            padding-right: 3px
+    .dashboard-game-list
+        // margin-top: 50px
+        .dashboard-images
+            margin-top: 10px
+            height: 52px
+            width: 52px
+
+@media (max-width: 650px)
+    .game-row
+        padding-right: 0
+    .option-form
+        width: 200px
+    .btn-form
+        width: 200px
+    .delete-btn
+        position: relative
+        top: 30px
+        left: 40px
+    .add-game-dashboard
+        width: 20px
+        height: 20px
+        margin-right: 10px
+  
