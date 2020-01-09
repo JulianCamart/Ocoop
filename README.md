@@ -4,11 +4,11 @@ O'coop est un projet réalisé dans le but de permettre à des joueurs de jeux c
 
 Nous avons réalisé ce projet en équipe en associant le framework **Symfony** pour le back end et la librairie **React** pour le font end
 
-## Réalisé durant le mois de projet lors de ma formation chez O'clock
+### Réalisé durant le mois de projet lors de ma formation chez O'clock
 
 *Du 25/11/2019 au 19/12/2019*
 
-### Développeurs :
+## Développeurs :
 
 - Younes BELARBI *Référents techniques*
 - Brice ZUNINO-MOURLON *Product owner*
@@ -16,7 +16,7 @@ Nous avons réalisé ce projet en équipe en associant le framework **Symfony** 
 - Damien DESCROIZETTE *Scrum master*
 - Julian CAMART *Lead dev front*
 
-#### Les technos utilisées
+## Les technos utilisées
 
 *   **Front**
     *   Redux
